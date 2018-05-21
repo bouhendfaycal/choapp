@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/menu_index"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/index" />
+        <item
+            android:id="@+id/menu_docs"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/docs" />
+        <item
+            android:id="@+id/menu_advice"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/advice" />
+        <item
+            android:id="@+id/menu_survey"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/survey" />
+        <item
+            android:id="@+id/menu_alarm"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/alarm" />
+        <item
+            android:id="@+id/menu_note"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/note" />
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/menu_about"
+            android:title="@string/about" />
+    </group>
+</menu>

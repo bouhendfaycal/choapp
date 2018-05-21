@@ -1,0 +1,61 @@
+<resources>
+    <string name="btn_start">Modifier</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_stop">Fermer</string>
+    <string name="btn_delete">Supprimer</string>
+
+    <string name="app_name">Suivi du diabète</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_logout">Déconnexion</string>
+    <string name="login_label">Log In</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="send_text">Send</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="title_sign_in">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="heading_recent">récents</string>
+    <string name="heading_my_posts">Favoris</string>
+    <string name="heading_my_top_posts">Populaires</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_profile_photo">http://baobaoloveyou.com/flowingdrawer_icon.png</string>
+
+    <string name="index">Accueil</string>
+    <string name="docs">Documentation</string>
+    <string name="advice">Conseils</string>
+    <string name="survey">Questionnaire</string>
+    <string name="alarm">Rappels</string>
+    <string name="note">Bloc notes</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">À propos</string>
+    <string name="logout">Déconnexion</string>
+    <string name="dialog_alarm_title">stop alarm</string>
+    <string name="dialog_alarm_yes">yeaaa</string>
+    <string name="dialog_alarm_no">nei</string>
+    <string name="alarm_preference_file_key">alarm_preference</string>
+    <string name="alarm_preference_key">_0_</string>
+    <string name="note_preference_key">_1_</string>
+    <string name="ALARM_EXTRA_MESSAGE">com.google.firebase.quickstart.database.ALARM_MESSAGE</string>
+    <string name="btn_toggle_off">OFF</string>
+    <string name="btn_toggle_on">ON</string>
+    <string name="alarm_delete_tite">Supprimer ?</string>
+    <string name="alarm_delete_message">Supprimer le rappel ?</string>
+    <string name="note_preference_file_key">note_preference</string>
+
+    <string name="operation_done">Enregistré</string>
+
+
+    <string-array name="days_of_week">
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+        <item>Dim</item>
+    </string-array>
+</resources>
