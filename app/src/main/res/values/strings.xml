@@ -3,6 +3,7 @@
     <string name="btn_save">Enregistrer</string>
     <string name="btn_stop">Fermer</string>
     <string name="btn_delete">Supprimer</string>
+    <string name="btn_ok">OK</string>
 
     <string name="app_name">Suivi du diabète</string>
     <string name="action_settings">Settings</string>
@@ -31,6 +32,7 @@
     <string name="alarm">Rappels</string>
     <string name="note">Bloc notes</string>
     <string name="settings">Paramètres</string>
+    <string name="mesures">Mesures</string>
     <string name="about">À propos</string>
     <string name="logout">Déconnexion</string>
     <string name="dialog_alarm_title">stop alarm</string>
@@ -39,23 +41,159 @@
     <string name="alarm_preference_file_key">alarm_preference</string>
     <string name="alarm_preference_key">_0_</string>
     <string name="note_preference_key">_1_</string>
+    <string name="call_preference_key">_2_</string>
     <string name="ALARM_EXTRA_MESSAGE">com.google.firebase.quickstart.database.ALARM_MESSAGE</string>
+    <string name="ENTRY_EXTRA_MESSAGE">com.google.firebase.quickstart.database.ENTRY_MESSAGE</string>
     <string name="btn_toggle_off">OFF</string>
     <string name="btn_toggle_on">ON</string>
     <string name="alarm_delete_tite">Supprimer ?</string>
     <string name="alarm_delete_message">Supprimer le rappel ?</string>
+    <string name="entry_delete_message">Supprimer ?</string>
     <string name="note_preference_file_key">note_preference</string>
+    <string name="call_preference_file_key">call_preference</string>
 
     <string name="operation_done">Enregistré</string>
+    <string name="step_1_title">Êtes-vous à risque?</string>
+    <string name="step_1_text">Les questions qui suivent vous aideront à déterminer si vous êtes à risque de prédiabète ou de diabète de type 2. Le prédiabète est
+    un état qui se caractérise par une glycémie plus élevée que la moyenne, mais pas suffisamment pour poser un diagnostic de diabète.
+    Vous pouvez être atteint de prédiabète ou de diabète de type 2 non diagnostiqué sans présenter de signes ou de symptômes manifestes.\n
+    Le fait de connaître votre niveau de risque vous aidera à faire maintenant des choix sains qui vous permettront de réduire ce risque,
+    voire même de prévenir l’apparition du diabète.\n
+    Répondez aux questions de façon aussi honnête et complète que possible. Si vous le souhaitez, un ami ou un membre de votre
+    famille peut vous aider à remplir le questionnaire. Les réponses sont complètement confidentielles. Répondez à toutes les questions
+        et inscrivez le nombre de points dans la case située à droite. Additionnez ensuite les points pour calculer votre note totale.</string>
+    <string name="step_1_text_2">Le questionnaire est destiné aux adultes âgés de 40 à 74 ans.</string>
+    <string name="step_2_question">Choisissez votre groupe d’âge :</string>
+    <string name="step_2_case1">&lt;44ans</string>
+    <string name="step_2_case2">45-54 ans</string>
+    <string name="step_2_case3">55-64 ans</string>
+    <string name="step_2_case4">65-74 ans</string>
+    <string name="step_2_question2">Quel est votre sexe?</string>
+    <string name="step_2_case5">Homme</string>
+    <string name="step_2_case6">Femme</string>
+    <string name="step_3_info">Combien mesurez-vous et combien pesez-vous?\nSur le tableau d’IMC ci-dessous, encerclez votre taille (à gauche du tableau), puis votre poids (dans le bas du tableau).
+Trouvez le point de croisement de votre taille et de votre poids et déterminez dans quelle zone vous vous trouvez.
+Par exemple, si vous mesurez 5 pieds et 2 pouces (ou 157,5 cm) et que vous pesez 163 livres (ou 74 kg), vous vous situez
+dans la zone GRISE PÂLE).</string>
+    <string name="step_3_question">Indiquez à quel groupe vous appartenez parmi les suivants :</string>
+
+    <string name="step_3_case1">Zone blanche (IMC inférieur à 25)</string>
+    <string name="step_3_case2">Zone grise pâle (IMC entre 25 et 29) </string>
+    <string name="step_3_case3">Zone grise foncée (IMC entre 30 et 34)</string>
+    <string name="step_3_case4">Zone noire (IMC supérieure à 35)</string>
+    <string name="step_2_info">Le risque de développer le diabète augmente avec l’âge.</string>
+    <string name="step_4_title">À l’aide d’un ruban à mesurer, mesurez votre tour de taille à la hauteur du nombril.</string>
+    <string name="step_4_info">Prenez la mesure après avoir expiré (ne retenez pas votre souffle) et inscrivez le résultat sur la ligne prévue à cet effet.
+Cochez ensuite la case correspondante. (Remarque : Cela n’a rien à voir avec la taille de vos pantalons.)</string>
+    <string name="step_4_question1">HOMME – Tour de taille :</string>
+    <string name="step_4_question2">FEMME – Tour de taille :</string>
+
+    <string name="step_4_case1">Moins de 94 cm ou 37 pouces</string>
+    <string name="step_4_case2">Entre 94 et 102 cm ou 37 et 40 pouces</string>
+    <string name="step_4_case3">Plus de 102 cm ou 40 pouces</string>
+    <string name="step_4_case4">Moins de 80 cm ou 31,5 pouces</string>
+    <string name="step_4_case5">Entre 80 et 88 cm ou 31,5 et 35 pouces</string>
+    <string name="step_4_case6">Plus de 88 cm ou 35 pouces</string>
+
+    <string name="step_5_info"> Le niveau d’activité physique et les habitudes alimentaires peuvent influer
+sur le risque de développer le diabète.</string>
+    <string name="step_5_question1">Faites-vous habituellement de l’activité physique, comme de la marche rapide, au moins 30 minutes par jour?</string>
+    <string name="step_5_question1_info">L’activité peut être pratiquée au travail ou à la maison.</string>
+    <string name="step_5_case1">Oui</string>
+    <string name="step_5_case2">Non</string>
+    <string name="step_5_question2">À quelle fréquence mangez-vous des légumes ou des fruits?</string>
+    <string name="step_5_case3">Tous les jours</string>
+    <string name="step_5_case4">Pas tous les jours</string>
+
+    <string name="step_6_info"> L’hypertension artérielle, l’hyperglycémie et des facteurs liés à la grossesse
+sont associés au diabète.</string>
+    <string name="step_6_question1">Un médecin ou un membre du personnel infirmier vous a-t-il déjà dit que vous faisiez de l’hypertension
+artérielle OU avez-vous déjà pris des médicaments contre l’hypertension artérielle?</string>
+    <string name="step_6_case1">Oui</string>
+    <string name="step_6_case2">Non ou je ne sais pas</string>
+    <string name="step_6_question2">Avez-vous déjà eu un résultat de glycémie élevé lors d’une analyse sanguine, d’une maladie ou
+d’une grossesse?</string>
+    <string name="step_6_case3">Oui</string>
+    <string name="step_6_case4">Non ou je ne sais pas</string>
+    <string name="step_6_question3">Avez-vous déjà donné naissance à un bébé pesant 9 livres (4,1 kg) ou plus?</string>
+    <string name="step_6_case5">Oui</string>
+    <string name="step_6_case6">Non ou je ne sais pas</string>
+
+    <string name="step_7_info"> Certains types de diabète sont héréditaires.</string>
+    <string name="step_7_question1">Est-ce qu’un membre de votre famille a déjà eu un diagnostic de diabète? </string>
+    <string name="step_7_question1_info">Cochez TOUTES les réponses qui s’appliquent.</string>
+    <string name="step_7_case1">Mère</string>
+    <string name="step_7_case2">Père</string>
+    <string name="step_7_case3">Frères et sœurs</string>
+    <string name="step_7_case4">Enfants</string>
+    <string name="step_7_case5">Autre</string>
+    <string name="step_7_case6">Non ou ne sais pas</string>
+
+    <string name="step_7_question2">Veuillez cochez la case correspondant au groupe ethnique de vos parents biologiques :</string>
+    <string name="step_7_head1">Mère</string>
+    <string name="step_7_head2">Père</string>
+    <string name="step_7_case1_">Blanc (type caucasien)</string>
+    <string name="step_7_case2_">Autochtone</string>
+    <string name="step_7_case3_">Noir (Afro-Antillais)</string>
+    <string name="step_7_case4_">Asiatique de l’Est (Chinois, Vietnamien, Philippin, Coréen, etc.)</string>
+    <string name="step_7_case5_">Asiatique du Sud (Indien-Oriental, Pakistanais, Sri-Lankais, etc.)</string>
+    <string name="step_7_case6_">Autres personnes de couleu(Latino-Américain, Arabe, Asiatique de l’Ouest)</string>
+
+    <string name="step_8_info"> D’autres facteurs sont associés au diabète.</string>
+    <string name="step_8_question1">Quel est le plus haut niveau de scolarité que vous ayez atteint?</string>
+    <string name="step_8_case1">Études secondaires ou moins</string>
+    <string name="step_8_case2">Diplôme d’études secondaires</string>
+    <string name="step_8_case3">Études collégiales ou universitaires</string>
+    <string name="step_8_case4">Diplôme d’études collégiales ou universitaires</string>
+
+    <string name="survey_result_1">Faible risque</string>
+    <string name="survey_result_2">Risque modéré</string>
+    <string name="survey_result_3">Risque élevé</string>
+
+    <string name="survey_result_1_text">Votre risque de développer le prédiabète
+ou le diabète de type 2 est assez faible,
+mais on gagne toujours à conserver un mode
+de vie sain.</string>
+    <string name="survey_result_2_text">Selon les facteurs de risque que vous avez indiqués,
+votre risque de développer le prédiabète
+ou le diabète de type 2 est modéré. Vous pouvez
+consulter un professionnel de la santé pour
+discuter de votre risque d’avoir le diabète.</string>
+    <string name="survey_result_3_text">Selon les facteurs de risque que vous avez
+indiqués, votre risque de développer le
+prédiabète ou le diabète de type 2 est élevé.\n
+Vous pouvez consulter un professionnel de la
+santé pour discuter un test de glycémie.</string>
+    <string name="entry_time">Heure</string>
+    <string name="entry_date">Date</string>
+    <string name="entry_creneau">Créneau</string>
+    <string name="entry_glycemie">Taux glycémie</string>
+    <string name="entry_pression">Pression artérielle</string>
+    <string name="entry_acetone">Acétone</string>
+    <string name="entry_note">Note</string>
+    <string name="step_validation_error">Veuillez remplir le formulaire</string>
+    <string name="SURVEY_INTENT">total_ponts</string>
 
 
-    <string-array name="days_of_week">
-        <item>Lun</item>
-        <item>Mar</item>
-        <item>Mer</item>
-        <item>Jeu</item>
-        <item>Ven</item>
-        <item>Sam</item>
-        <item>Dim</item>
+    <string-array name="category">
+        <item>Glycémie a jeun</item>
+        <item>Casse-croute</item>
+        <item>Avant petit déjeuner</item>
+        <item>Le petit déjeuner</item>
+        <item>Apres petit déjeuner</item>
+        <item>Avant déjeuner</item>
+        <item>Le déjeuner</item>
+        <item>Aprés déjeuner</item>
+        <item>Avant diner</item>
+        <item>Le diner</item>
+        <item>Apres diner</item>
+        <item>Avant dormir</item>
+        <item>Nuit</item>
+        <item>Avant l\'exercice</item>
+        <item>Apres l\'exercice</item>
+        <item>Autre</item>
     </string-array>
+    <string name="title_activity_entry_list">EntryListActivity</string>
+    <string name="call_label">Numéro d\'appel d\'urgence</string>
+    <string name="call">Appel d\'urgence</string>
 </resources>

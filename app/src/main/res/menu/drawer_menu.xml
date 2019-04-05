@@ -5,6 +5,10 @@
             android:icon="@drawable/ic_global_menu_feed"
             android:title="@string/index" />
         <item
+            android:id="@+id/menu_mesures"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/mesures" />
+        <item
             android:id="@+id/menu_docs"
             android:icon="@drawable/ic_global_menu_feed"
             android:title="@string/docs" />
@@ -24,11 +28,12 @@
             android:id="@+id/menu_note"
             android:icon="@drawable/ic_global_menu_feed"
             android:title="@string/note" />
+        <item
+            android:id="@+id/menu_call"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="@string/call" />
     </group>
     <group android:id="@+id/menu_group_2">
-        <item
-            android:id="@+id/menu_settings"
-            android:title="@string/settings" />
         <item
             android:id="@+id/menu_about"
             android:title="@string/about" />

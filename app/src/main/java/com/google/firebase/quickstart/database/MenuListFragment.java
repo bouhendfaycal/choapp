@@ -67,6 +67,9 @@ public class MenuListFragment extends Fragment {
                     case (R.id.menu_index):
                         in = new Intent(getActivity(), MainActivity.class);
                         break;
+                    case (R.id.menu_mesures):
+                        in = new Intent(getActivity(), EntryListActivity.class);
+                        break;
                     case (R.id.menu_docs):
                         in = new Intent(getActivity(), DocActivity.class);
                         break;
@@ -81,6 +84,9 @@ public class MenuListFragment extends Fragment {
                         break;
                     case (R.id.menu_note):
                         in = new Intent(getActivity(), NotesActivity.class);
+                        break;
+                    case (R.id.menu_call):
+                        in = new Intent(getActivity(), CallActivity.class);
                         break;
                     case (R.id.menu_about):
                         in = new Intent(getActivity(), AboutActivity.class);

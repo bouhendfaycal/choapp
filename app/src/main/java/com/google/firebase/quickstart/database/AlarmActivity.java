@@ -97,7 +97,7 @@ public class AlarmActivity extends AppCompatActivity {
         OnClickListener save_alarm_listener = new OnClickListener() {
             public void onClick(View view) {
                 if (TextUtils.isEmpty(alarmEditText.getText().toString())) {
-                    alarmEditText.setError("Enter Your Name");
+                    alarmEditText.setError("champ vide");
                     alarmEditText.requestFocus();
                     return;
                 } else {
